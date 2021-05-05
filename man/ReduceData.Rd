@@ -4,8 +4,7 @@
 \alias{ReduceData}
 \title{Reduce data to temporal serie}
 \usage{
-ReduceData(data, provincia = TRUE, date = "day", diag = NULL,
-  sex = FALSE)
+ReduceData(data, provincia = TRUE, date = "day", diag = NULL, sex = FALSE)
 }
 \arguments{
 \item{data}{Morbidity data}

@@ -15,11 +15,14 @@ Imports:
     dplyr,
     ggplot2,
     seasonal,
-    dplyr,
     lubridate,
-    XLConnect
-RoxygenNote: 6.0.1
-Suggests: testthat,
+    XLConnect,
+    magrittr
+RoxygenNote: 7.1.1
+Suggests: 
+    testthat,
     knitr,
-    rmarkdown
+    rmarkdown,
+    geofacet,
+    lunar
 VignetteBuilder: knitr

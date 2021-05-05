@@ -1,3 +1,5 @@
 importFrom("readr",  "read_fwf", "fwf_widths")
+importFrom("utils", "download.file", "glob2rx", "read.fortran", "read.fwf", "unzip")
 importFrom("lubridate","days")
+importFrom("magrittr","%>%")
 exportPattern("^[[:alpha:]]+")

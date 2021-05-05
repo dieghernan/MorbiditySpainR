@@ -4,10 +4,12 @@
 \alias{AddDiagnosis2}
 \title{Add secondary diagnosis to morbity data}
 \usage{
-AddDiagnosis2(data)
+AddDiagnosis2(data, exhaustivo = TRUE)
 }
 \arguments{
 \item{data}{Morbidity data}
+
+\item{exhaustivo}{When usig cie 10 you find codes with no direct translation to cie 9 this are codified as 999, if you want it to be trasnlate you shlud mark TRUE (very slow)}
 }
 \value{
 data frame with morbidity data prov_hosp, sexo, prov_res, diag_in, diag_ppal, motivo_alta, estancia, fecha_ingreso, edad, diag2

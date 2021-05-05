@@ -1,8 +1,3 @@
-library(MorbiditySpainR)
-
-context("Morbidity packages test")
-
-#GetMorbiData
 test_that("Todas las funciones",{
   expect_equal(nrow(data_test),9188986)
   expect_equal(as.numeric(data_test[1000,"edad"]),60)
